@@ -1,0 +1,136 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    --shad: 4px 4px 16px -4px #0004; 
+    text-decoration: none;
+
+    
+}
+
+header{
+    display: flex;
+    padding: 1rem; 
+    gap: 13rem;
+    background-color: grey;
+   
+}
+
+
+header li a{
+     color: black;
+}
+
+.logo{
+    padding-right: 9rem;
+    padding-left: 3rem;
+    color: white;
+    
+}
+
+.special{
+    color: black;
+}
+
+main{
+    padding: 2rem;    
+}
+
+.intro{
+    text-align: center;
+}
+
+.heading-one{
+    text-align: center;
+}
+
+.intro img{
+    height: 25rem;
+    padding: 2rem;
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+}
+
+.posts img{
+    padding: 1rem;
+}
+
+.msg{
+    font-size: 2rem;
+    text-align: center;
+}
+
+form{
+    padding: 3rem;
+    text-align: center;
+}
+
+.mem{
+    padding: 5.5rem;
+    font-size: 2rem;
+    
+    
+}
+
+.mem form{
+    background-image: url(/images/larmbo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 6rem;
+    color: white;
+}
+
+
+.mem input{
+    height: 2rem;
+    width: 20rem;
+}
+
+.mem button{
+    height: 2rem;
+    width: 5rem;
+}
+
+.contact input{
+    height: 2rem;
+    width: 20rem;
+}
+
+.contact p{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact button{
+    height: 2rem;
+    width: 5rem;
+}
+
+.contact form{
+    background-image: url(/images/larmbo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 6rem;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+textarea{
+    width: 20rem;
+    height: 9rem;
+}
+
+.para-1{
+    text-align: center;
+}
+
+.footer-text{
+    text-align: center;
+}
+
